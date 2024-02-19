@@ -69,14 +69,19 @@ li {
 }
 
 /* Media queries */
-@media(max-width: 900px) {
+@media(max-width: 1920px) {
   div.container {
     width: 50%;
   }
 }
+@media(max-width: 900px) {
+  div.container {
+    width: 60%;
+  }
+}
 @media(max-width: 750px) {
   div.container {
-    width: 70%;
+    width: 80%;
   }
 }
 @media(max-width: 500px) {
