@@ -69,23 +69,24 @@ li {
   padding: 10px;
 }
 
-@media (max-width: 960px) {
-  /* Pour un écran < 960px, cette classe CSS s'applique */
+/* Media queries */
+@media(max-width: 900px) {
   .container {
-    width: 50%;
+    width: 700px;
   }
 }
-
-@media (max-width: 720px) {
-  /* Pour un écran < 720px, cette classe CSS s'applique */
+@media(max-width: 750px) {
   .container {
-    width: 70%;
+    width: 450px;
   }
 }
-
-@media (max-width: 540px) {
-  /* Pour un écran < 540px, cette classe CSS s'applique */
+@media(max-width: 500px) {
   .container {
-    width: 90%;
+    width: 350px;
+  }
+  div.card {
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
   }
 }
