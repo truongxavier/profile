@@ -140,6 +140,16 @@ section {
 .grid {
   display: grid;
 }
+.gap-5 {
+  gap: 1.25rem;
+}
+.justify-between {
+  justify-content: space-between;
+}
+
+.flex {
+  display: flex;
+}
 
 li {
   display: inline;
