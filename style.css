@@ -1,0 +1,91 @@
+body {
+  background-color: #FC6736;
+  color: #EFECEC;
+  font-family: 'Anta', serif;
+  font-size: 17px;
+  font-weight: lighter;
+}
+
+h1, h2, h3 {
+  color: #EFECEC;
+  font-family: 'Montserra', serif;
+}
+
+a {
+  color: #FC6736;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #FFB0B0;
+  color: #EFECEC;
+}
+
+div.container {
+  width: 50%;
+  margin: 0px auto;
+}
+
+div.card {
+  background-color: #0C2D57;
+  padding: 40px;
+  box-shadow: 10px 10px 30px rgba(0,0,0,0.7);
+  border-radius: 4px;
+  margin: 20px;
+  text-align: center;
+}
+
+img {
+  border-radius: 150px
+}
+
+.btn-orange {
+  background-color: #FC6736;
+  color: #EFECEC;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+.link{
+  font-size: 50px;
+}
+
+.list-inline {
+  display: inline;
+  padding: 10px;
+  list-style: none;
+}
+
+p {
+  display: block;
+  margin-block-start: 2em;
+  margin-block-end: 2em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding: 20px;
+}
+
+li {
+  display: inline;
+  padding: 10px;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
