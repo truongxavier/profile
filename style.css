@@ -72,20 +72,20 @@ li {
 @media (max-width: 960px) {
   /* Pour un écran < 960px, cette classe CSS s'applique */
   .container {
-    width: 700px;
+    width: 50%;
   }
 }
 
 @media (max-width: 720px) {
   /* Pour un écran < 720px, cette classe CSS s'applique */
   .container {
-    width: 500px;
+    width: 70%;
   }
 }
 
 @media (max-width: 540px) {
   /* Pour un écran < 540px, cette classe CSS s'applique */
   .container {
-    width: 300px;
+    width: 90%;
   }
 }
