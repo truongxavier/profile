@@ -70,17 +70,17 @@ li {
 
 /* Media queries */
 @media(max-width: 900px) {
-  .container {
+  div.container {
     width: 50%;
   }
 }
 @media(max-width: 750px) {
-  .container {
+  div.container {
     width: 70%;
   }
 }
 @media(max-width: 500px) {
-  .container {
+  div.container {
     width: 95%;
   }
   div.card {
