@@ -71,12 +71,12 @@ li {
 /* Media queries */
 @media(max-width: 900px) {
   .container {
-    width: 700px;
+    width: 50%;
   }
 }
 @media(max-width: 750px) {
   .container {
-    width: 450px;
+    width: 70%;
   }
 }
 @media(max-width: 500px) {
